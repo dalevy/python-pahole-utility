@@ -1,7 +1,7 @@
 # python-pahole-utility
 A tool for dumping linux debug kernel structures using pahole
 
-Pahole
+pahole
 ======
 Reference:
 https://groups.google.com/forum/#!searchin/vmitools/pahole/vmitools/vZh5spoVN9g/byVCCvuLBwAJ
@@ -21,4 +21,3 @@ Installation and Execution
     Run pahole -C <name of offset> <name of kernel>
    
     example: pahole -C task-struct vmlinux-3.13.0-79-generic
-
